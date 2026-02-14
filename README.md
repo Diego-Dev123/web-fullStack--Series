@@ -1,5 +1,10 @@
 # Spring Project 
+inicio
 <img width="1902" height="907" alt="image" src="https://github.com/user-attachments/assets/d4e6d39d-5692-43c2-a427-746443a4cfe3" />
+mostrar temporadas
+<img width="1911" height="793" alt="image" src="https://github.com/user-attachments/assets/b6f67a28-4d9f-437d-8337-2eba119909d4" />
+mirando las temporadas
+<img width="1331" height="750" alt="image" src="https://github.com/user-attachments/assets/fd382d0a-26dd-405f-b2da-344f09a1ed11" />
 
 
 # Spring Boot Backend API – Series App
