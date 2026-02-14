@@ -32,6 +32,7 @@ El proyecto está enfocado en la construcción de un backend estructurado, mante
 ## Arquitectura
 
 El proyecto sigue una arquitectura en capas:
+<img width="1791" height="767" alt="image" src="https://github.com/user-attachments/assets/6ef23347-6bbf-4920-a5c5-a9f478fa7a41" />
 
 - **Controller**: Manejo de las solicitudes HTTP y exposición de endpoints REST.  
 - **Service**: Implementación de la lógica de negocio.  
@@ -53,9 +54,13 @@ Proyecto en desarrollo con enfoque educativo y práctico, orientado al aprendiza
 ## Configuración de la base de datos
 
 La aplicación utiliza **PostgreSQL**.  
-Las credenciales y configuración se definen en el archivo `application.properties`:
+<img width="1607" height="786" alt="image" src="https://github.com/user-attachments/assets/47411228-89cd-4ae5-a992-9a10d46d4d48" />
 
+Las credenciales y configuración se definen en el archivo `application.properties`:
+<img width="1733" height="337" alt="image" src="https://github.com/user-attachments/assets/e949987b-db62-4d09-93cc-7db69ef82d82" />
 ```properties
+
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/tu_base_de_datos
 spring.datasource.username=usuario
 spring.datasource.password=password
