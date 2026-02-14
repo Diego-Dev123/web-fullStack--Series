@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe0cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5c4a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hair2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b83280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b21a8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#bg2)" stroke="#fff" stroke-width="2"/>
+  <!-- Body -->
+  <ellipse cx="60" cy="115" rx="35" ry="25" fill="#6b21a8"/>
+  <!-- Neck -->
+  <rect x="52" y="78" width="16" height="10" rx="3" fill="url(#skin2)"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="55" rx="28" ry="30" fill="url(#skin2)"/>
+  <!-- Hair - long flowing -->
+  <path d="M32 45 C32 20, 88 20, 88 45 C88 32, 78 18, 60 18 C42 18, 32 32, 32 45Z" fill="url(#hair2)"/>
+  <path d="M32 45 C28 55, 26 70, 30 85 C32 75, 30 60, 32 45Z" fill="url(#hair2)"/>
+  <path d="M88 45 C92 55, 94 70, 90 85 C88 75, 90 60, 88 45Z" fill="url(#hair2)"/>
+  <!-- Side hair strands -->
+  <path d="M30 85 C28 90, 27 95, 30 100" stroke="url(#hair2)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M90 85 C92 90, 93 95, 90 100" stroke="url(#hair2)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <ellipse cx="48" cy="52" rx="5.5" ry="6" fill="white"/>
+  <ellipse cx="72" cy="52" rx="5.5" ry="6" fill="white"/>
+  <circle cx="49" cy="53" r="3" fill="#6b21a8"/>
+  <circle cx="73" cy="53" r="3" fill="#6b21a8"/>
+  <circle cx="50" cy="51.5" r="1.2" fill="white"/>
+  <circle cx="74" cy="51.5" r="1.2" fill="white"/>
+  <!-- Eyelashes -->
+  <path d="M42 47 L40 44" stroke="#2d3748" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M45 46 L44 43" stroke="#2d3748" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M48 45.5 L48 42.5" stroke="#2d3748" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M78 47 L80 44" stroke="#2d3748" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M75 46 L76 43" stroke="#2d3748" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M72 45.5 L72 42.5" stroke="#2d3748" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Blush -->
+  <ellipse cx="40" cy="60" rx="6" ry="3" fill="#ffb3b3" opacity="0.4"/>
+  <ellipse cx="80" cy="60" rx="6" ry="3" fill="#ffb3b3" opacity="0.4"/>
+  <!-- Nose -->
+  <path d="M58 58 Q60 62 62 58" stroke="#e8b88a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M52 66 Q60 73 68 66" stroke="#e74c6f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Lips highlight -->
+  <path d="M55 67 Q60 64 65 67" stroke="#e74c6f" stroke-width="1" fill="#e74c6f" opacity="0.3"/>
+  <!-- Star accessory in hair -->
+  <polygon points="35,35 37,30 39,35 44,36 40,39 41,44 37,41 33,44 34,39 30,36" fill="#ffd700" opacity="0.9"/>
+</svg>
