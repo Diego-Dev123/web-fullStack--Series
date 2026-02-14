@@ -1,4 +1,6 @@
-# Spring Project – Backend API
+# Spring Project 
+<img width="1902" height="907" alt="image" src="https://github.com/user-attachments/assets/d4e6d39d-5692-43c2-a427-746443a4cfe3" />
+
 
 Este proyecto es una aplicación backend desarrollada con **Spring Boot**, expuesta como **API REST**, pensada para ser consumida por un **frontend** y conectada a una base de datos **PostgreSQL**.
 
